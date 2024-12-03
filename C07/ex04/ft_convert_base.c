@@ -6,7 +6,7 @@
 /*   By: nschneid <nschneid@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 13:49:42 by nschneid          #+#    #+#             */
-/*   Updated: 2024/12/03 12:43:05 by nschneid         ###   ########.fr       */
+/*   Updated: 2024/12/03 13:03:07 by nschneid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,7 @@ int	get_value(char digit, char *base)
 	return (-1);
 }
 
+#include <stdio.h>
 int	to_base_ten(char *nbr, char *base)
 {
 	int	base_size;
@@ -80,9 +81,9 @@ int	to_base_ten(char *nbr, char *base)
 // 	return (NULL);
 // }
 
-#include <stdio.h>
 int	main(void)
 {
-	printf("%d\n", to_base_ten("f3123", "0123456789ABCDEF"));
+	printf("%d\n", to_base_ten("F3123", "0123456789ABCDEF"));
+	//test
 	return (0);
 }
