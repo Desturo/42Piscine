@@ -6,7 +6,7 @@
 /*   By: nschneid <nschneid@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 13:49:42 by nschneid          #+#    #+#             */
-/*   Updated: 2024/12/03 12:39:17 by nschneid         ###   ########.fr       */
+/*   Updated: 2024/12/03 12:43:05 by nschneid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,5 +86,3 @@ int	main(void)
 	printf("%d\n", to_base_ten("f3123", "0123456789ABCDEF"));
 	return (0);
 }
-
-//Small change
