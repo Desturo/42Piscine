@@ -6,7 +6,7 @@
 /*   By: nschneid <nschneid@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 12:17:10 by nschneid          #+#    #+#             */
-/*   Updated: 2024/12/02 12:54:16 by nschneid         ###   ########.fr       */
+/*   Updated: 2024/12/03 19:55:13 by nschneid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,14 +36,11 @@ int	ft_ultimate_range(int **range, int min, int max)
 // int	main(void)
 // {
 // 	int *tab;
-// 	int	counter;
-// 	int	min;
-// 	int	max;
-// 	int	size;
-// 	min = -5;
-// 	max = 888;
-// 	size = ft_ultimate_range(&tab, min, max);
-// 	counter = 0;
+// 	int	counter = 0;
+// 	int	min = -5;
+// 	int	max = 888;
+// 	int	size = ft_ultimate_range(&tab, min, max);
+	
 // 	while (counter < size)
 // 	{
 // 		printf("%d\n", tab[counter]);

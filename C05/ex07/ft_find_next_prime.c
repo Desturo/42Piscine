@@ -6,7 +6,7 @@
 /*   By: nschneid <nschneid@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 20:59:44 by nschneid          #+#    #+#             */
-/*   Updated: 2024/12/02 21:31:37 by nschneid         ###   ########.fr       */
+/*   Updated: 2024/12/03 19:37:48 by nschneid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,10 +63,10 @@ int	ft_find_next_prime(int nb)
 	return (nb);
 }
 
-// #include <limits.h>
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	printf("%d", ft_find_next_prime(INT_MAX - 2));
-// 	return (0);
-// }
+#include <limits.h>
+#include <stdio.h>
+int	main(void)
+{
+	printf("%d", ft_find_next_prime(INT_MAX));
+	return (0);
+}
