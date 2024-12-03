@@ -1,6 +1,0 @@
-[submodule "shell01"]
-	path = shell01
-	url = git@vogsphere.42heilbronn.de:vogsphere/intra-uuid-512f16e7-c110-4732-af78-95bc6db68246-6187651-nschneid
-[submodule "c00"]
-	path = c00
-	url = git@vogsphere.42heilbronn.de:vogsphere/intra-uuid-10492233-1fa3-424a-9ecb-399350ee162f-6186730-nschneid
